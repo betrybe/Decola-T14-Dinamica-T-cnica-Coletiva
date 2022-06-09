@@ -1,4 +1,4 @@
-from problems.problem1 import solve
+from problems.problem2 import solve
 
 
 def test_case_one():
