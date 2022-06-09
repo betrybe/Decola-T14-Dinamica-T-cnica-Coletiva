@@ -37,7 +37,7 @@ $ python3 -m pytest tests/test_problem1.py
 
 ## Entrega do desafio
 
-Após clonar o repositório, desenvolva as soluções em uma _branch_ com o número do seu grupo:
+Após clonar o repositório, desenvolva as soluções em uma _branch_ com o número do seu grupo. O número do seu grupo é dado pelo número da breakout room em que vocês estão. Exemplos:
 - Grupo 1: _branch_ `grupo-1`
 - Grupo 2: _branch_ `grupo-2`
 - Grupo 3: _branch_ `grupo-3`
@@ -85,7 +85,7 @@ A solução deve ser realizada dentro da função `solve()` que está presente d
 > 
 > Retorne `True` se a entrada atende as condições, e `False` caso contrário.
 
-### 👉 Desafio 2
+### 👉 Desafio 3
 
 **Entrada**: 
 > - `students`, do tipo `list`
@@ -95,7 +95,6 @@ A solução deve ser realizada dentro da função `solve()` que está presente d
 > 
 > Cada tupla representa os horários de entrada e saída de uma pessoa estudante em uma sala de estudos. Por exemplo, a tupla `(5, 9)` indica que essa pessoa estudante esteve na sala a partir do horário `5` até o horário `9`.
 >
-> Se temos outra tupla `(7, 13)`, entre os horários `7` e `9` tivemos **2** pessoas estudantes simultaneamente na sala de estudos. 
+> Se temos outra tupla `(7, 13)`, outra pessoa estudante esteve na sala a partir do horário `7` até o horário `13`. Portanto, entre os horários `7` e `9` tivemos **2** pessoas estudantes simultaneamente na sala de estudos. 
 > 
 > Retorne o número máximo de pessoas estudantes que estiveram na sala de estudos simultaneamente.
-
