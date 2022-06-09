@@ -33,6 +33,18 @@ Para executar os testes relacionados a apenas um desafio (_para o desafio 1, por
 ```bash
 $ python3 -m pytest tests/test_problem1.py
 ```
+---
+
+## Entrega do desafio
+
+Após clonar o repositório, desenvolva as soluções em uma _branch_ com o numero do seu grupo:
+- Grupo 1: _branch_ `grupo-1`
+- Grupo 2: _branch_ `grupo-2`
+- Grupo 3: _branch_ `grupo-3`
+- Grupo 4: _branch_ `grupo-4`
+- ...
+
+Ao final, faça o _push_ com as alterações
 
 ---
 
