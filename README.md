@@ -33,6 +33,9 @@ Para executar os testes relacionados a apenas um desafio (_para o desafio 1, por
 ```bash
 $ python3 -m pytest tests/test_problem1.py
 ```
+
+---
+
 ## Desafios
 
 São 3 desafios ao todo.
@@ -46,13 +49,28 @@ A solução deve ser realizada dentro da função `solve()` que está presente d
 
 ### Desafio 1
 
-Entrada: 
-- `number`: inteiro
-- `iterations`: inteiro
+**Entrada**: 
+> - `number`, do tipo `int`
+> - `iterations`, do tipo `int`
 
-Implemente a seguinte lógica: 
-- Se o número `number` não terminar em zero, subtraia `1` de `number`;
-- Se `number` terminar em zero, divida-o por `10`.
-- Faça isso enquanto `iterations` for maior que zero
+**Desafio**:
+> Execute a seguinte lógica pelo número de vezes indicado em `iterations`:
+> - Se `number` não terminar em zero, subtraia `1` de `number`. Caso contrário, divida `number` por `10`
+> 
+> Retorne o valor final de `number`, que deve ser um numero inteiro.
 
-Retorne o valor final de `number`, que deve ser um numero inteiro.
+### Desafio 2
+
+**Entrada**: 
+> - `brackets`, do tipo `str`
+
+**Desafio**:
+> A entrada `brackets` será uma sequência dos caracteres:
+> - `(` : abertura de parênteses;
+> - `)` : fechamento de parênteses. 
+> 
+> Verifique se, para cada abertura de parênteses, há um fechamento correspondente. Além disso, não deve haver um fechamento sem uma abertura correspondente. 
+> 
+> Retorne `True` se a entrada atende as condições, e `False` caso contrário.
+
+
