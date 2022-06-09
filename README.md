@@ -47,7 +47,7 @@ Para cada desafio, temos um arquivo no qual você desenvolverá sua solução:
 
 A solução deve ser realizada dentro da função `solve()` que está presente do arquivo
 
-### Desafio 1
+### 👉 Desafio 1
 
 **Entrada**: 
 > - `number`, do tipo `int`
@@ -59,7 +59,7 @@ A solução deve ser realizada dentro da função `solve()` que está presente d
 > 
 > Retorne o valor final de `number`, que deve ser um numero inteiro.
 
-### Desafio 2
+### 👉 Desafio 2
 
 **Entrada**: 
 > - `brackets`, do tipo `str`
@@ -73,4 +73,17 @@ A solução deve ser realizada dentro da função `solve()` que está presente d
 > 
 > Retorne `True` se a entrada atende as condições, e `False` caso contrário.
 
+### 👉 Desafio 2
+
+**Entrada**: 
+> - `students`, do tipo `list`
+
+**Desafio**:
+> A entrada `students` será uma lista de tuplas, sendo que cada tupla contém um par de inteiros.
+> 
+> Cada tupla representa os horários de entrada e saída de uma pessoa estudante em uma sala de estudos. Por exemplo, a tupla `(5, 9)` indica que essa pessoa estudante esteve na sala a partir do horário `5` até o horário `9`.
+>
+> Se temos outra tupla `(7, 13)`, entre os horários `7` e `9` tivemos **2** pessoas estudantes simultaneamente na sala de estudos. 
+> 
+> Retorne o número máximo de pessoas estudantes que estiveram na sala de estudos simultaneamente.
 
