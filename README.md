@@ -1,1 +1,1 @@
-# Decola-T14-Dinamica-T-cnica-Coletiva
+# Decola T14 Dinâmica Técnica Coletiva
